@@ -24,7 +24,7 @@
 		byte bb[]=name.getBytes("gb2312");
 		name=new String(bb);
 		if(name.length()==0||name.length()>10){
-	%>	<jsp:forward page="inputname.jsp"/>
+	%>	<jsp:forward page="index.html"/>
 	<% 	}
 		judge();
 		addperson(name);
